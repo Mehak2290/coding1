@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# my-react-app - Dockerized React App
+
+This repository contains the Dockerized setup for the "Codin 1" website.
+
+##  Github Repository Link
+
+[kaur_mehakdeep_coding_assignment11 Repository](https://github.com/Mehak2290/kaur_mehakdeep_coding_assignment11)
+
+
+## Instructions
+
+1. Make sure you have Docker installed on your machine.
+
+2. Clone this repository:
+
+    ```bash
+    git clone https://github.com/your_username/your_repository.git
+    ```
+
+3. Navigate to the project directory:
+
+    ```bash
+    cd your_repository
+    ```
+
+4. Build the Docker image:
+
+    ```bash
+    docker build -t kaur_mehakdeep_coding_assignment11 .
+    ```
+
+5. Run the Docker container:
+
+    ```bash
+    docker run -p 7775:7775 kaur_mehakdeep_coding_assignment11
+    ```
+
+6. Open your web browser and go to [http://127.0.0.1:7775](http://127.0.0.1:7775) to view the "Codin 1" website.
+
+
